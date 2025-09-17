@@ -1,0 +1,59 @@
+# Unreal Engine Intermediate / Cache / Binaries
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# UE5 template/prototyping content kept local
+Content/StarterContent/
+Content/LevelPrototyping/
+Content/ThirdPerson/
+Content/Characters/
+
+# Build- und Plattform-Spezifisch
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Backup & Temp
+*.tmp
+*.log
+*.bak
+*.local
+*.lock
+*.suo
+*.user
+*.userprefs
+
+# Plattform- und Engine-Builds
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.sdf
+*.opensdf
+*.tlog
+
+# Packaging-Output
+Build/Android/
+Build/IOS/
+Build/WindowsNoEditor/
+Build/Windows/
+Build/Linux/
+Build/Mac/
+Build/HoloLens/
+
+# Ignore Config wenn sie lokal sind (optional)
+*.iml
+
+# Engine Plugins & Marketplace Cache (nur wenn lokal installiert)
+Engine/Intermediate/
+Engine/Saved/
+
+# OS-spezifisch
+.DS_Store
+Thumbs.db
+
+# Optional: Visual Studio Code CMake Cache
+CMakeCache.txt
+CMakeFiles/
